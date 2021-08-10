@@ -19,4 +19,3 @@ then
 fi
 
 exec "$@"
-
