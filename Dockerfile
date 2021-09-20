@@ -13,4 +13,4 @@ COPY entrypoint.sh /gotapdance/entrypoint.sh
 RUN chmod +x /gotapdance/entrypoint.sh
 WORKDIR /gotapdance
 ENTRYPOINT ["/gotapdance/entrypoint.sh"]
-CMD ["./cli","-connect-addr=ident.me:443"]
+CMD ["./cli","-connect-addr=ident.me:80"]
